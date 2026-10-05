@@ -6,11 +6,15 @@ public class Story {
 
             String MaleName = FirstName.nextLine();  // Read user input
     System.out.println("Confirmed name for main character is: " + MaleName);  // Output user input
+
+        System.out.println("");
+
         System.out.print("Please enter a first name for the main female character: ");
 
                 String FemaleName = FirstName.nextLine();  // Read user input
     System.out.println("Confirmed name for main female character is: " + FemaleName);  // Output user input
 
+    System.out.println("");
 
 
         Scanner SecondName = new Scanner(System.in);  // Create a Scanner object
@@ -19,6 +23,7 @@ public class Story {
             String MaleSecond = SecondName.nextLine();  // Read user input
     System.out.println("Confirmed second name for main character is: " + MaleSecond);  // Output user input
 
+    System.out.println("");
 
         Scanner SecondFName = new Scanner(System.in);  // Create a Scanner object
         System.out.print("Please enter a second name for the main female character: ");
@@ -26,6 +31,7 @@ public class Story {
             String FemaleSecond = SecondFName.nextLine();  // Read user input
     System.out.println("Confirmed second name for main female character is: " + FemaleSecond);  // Output user input
 
+    System.out.println("");
 
 
         Scanner Place = new Scanner(System.in);  // Create a Scanner object
@@ -33,6 +39,16 @@ public class Story {
 
             String Location = Place.nextLine();  // Read user input
     System.out.println("Confirmed place where the story is set: " + Location);  // Output user input
+
+    System.out.println("");
+        Scanner Season = new Scanner(System.in);  // Create a Scanner object
+        System.out.print("Please enter the name of a season: ");
+
+            String Szn = Season.nextLine();  // Read user input
+    System.out.println("Confirmed season of the year for when this story is set: " + Szn);  // Output user input
+
+        System.out.println("");
+
 
     }
 }
