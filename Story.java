@@ -49,6 +49,11 @@ public class Story {
 
         System.out.println("");
 
+        Scanner MurderWeapon = new Scanner(System.in);  // Create a Scanner object
+        System.out.print("Please enter a murder weapon: ");
+
+            String Wpn = MurderWeapon.nextLine();  // Read user input
+    System.out.println("Confirmed murder weapon selected: " + Wpn);  // Output user input   
 
     }
 }
