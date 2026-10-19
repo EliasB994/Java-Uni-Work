@@ -10,6 +10,7 @@ public class Shape {
             System.out.print("*");
         }
         System.out.println(); // CHANGE ROW
+    
     }
 }
 
