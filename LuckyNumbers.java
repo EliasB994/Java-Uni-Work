@@ -20,15 +20,6 @@ public class LuckyNumbers { // the sum of the digits of a number between 1-30 is
         // 1 % 10 = 1 // +=
         // 1 / 10 = 0
 
-
-private static int sumOfDigits(int num){
-    int sumDigits = 0;
-    while(num < 0){
-        sumDigits += num % 10;
-        num = num / 10; 
-    }
-}
-
     }
 
     // prime number boolean function for validation
